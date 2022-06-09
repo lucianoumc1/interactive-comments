@@ -1,0 +1,10 @@
+.Button {
+  color: var(--color-neutral-white);
+  background-color: var(--color-primary-moderate-blue);
+  font-family: 'Rubik', sans-serif;
+  padding: 15px 34px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-weight: 500;
+}

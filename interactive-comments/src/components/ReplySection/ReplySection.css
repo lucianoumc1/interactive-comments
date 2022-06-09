@@ -1,0 +1,6 @@
+.ReplySection {
+  display: block;
+  background-color: transparent;
+  margin-left: 2.5%;
+  border-left: 2px solid var(--color-neutral-light-gray);
+}

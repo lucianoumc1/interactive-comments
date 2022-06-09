@@ -1,0 +1,36 @@
+.Likes {
+  width: 90px;
+  display: block;
+  background-color: var(--color-neutral-very-light-gray);
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.likes__btn--plus {
+  background: url(../../assets/avatars/icon-plus.svg) no-repeat center  ;
+  border:none; 
+  outline: none;
+  width: 40px;
+  cursor: pointer;
+}
+.likes__btn--minus {
+  background: url(../../assets/avatars/icon-minus.svg) no-repeat center  ;
+  border:none; 
+  outline: none;
+  width: 40px;
+  cursor: pointer;
+}
+.Likes span {
+  font-size: var(--font-size-paragraph);
+  color: var(--color-primary-moderate-blue);
+  font-weight: 700;
+  margin: 0 5px;
+}
+.vertical {
+  transform: rotate(90deg);
+}
+.vertical > * {
+  transform: rotate(-90deg);
+}

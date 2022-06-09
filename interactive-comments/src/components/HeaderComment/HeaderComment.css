@@ -1,0 +1,14 @@
+.HeaderComment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--color-primary-white);
+}
+.header-comment__username {
+  margin: 0 15px;
+  font-weight: 500;
+  color: var(--color-neutral-dark-blue);
+}
+.header-comment__time {
+  color: var(--color-neutral-grayish-blue);
+}

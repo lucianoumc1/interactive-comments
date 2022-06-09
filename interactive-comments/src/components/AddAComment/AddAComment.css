@@ -1,0 +1,16 @@
+.AddAComment {
+  
+}
+.AddAComment textarea {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--color-neutral-white);
+  border-radius: 10px;
+  border: 1px solid var(--color-neutral-light-gray);
+  font-family: 'Rubik', sans-serif;
+  padding: 1rem;
+  color: var(--color-neutral-grayish-blue);
+  resize: none;
+  outline: none;
+}

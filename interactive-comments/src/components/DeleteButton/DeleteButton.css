@@ -1,0 +1,16 @@
+.DeleteButton {
+  height: 35px;
+  border: none;
+  outline:none; 
+  background: transparent;
+  color: var(--color-primary-soft-red);
+  font-weight: 700;
+  font-size: var(--font-size-paragraph);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: 'Rubik', 'san-serif';
+}
+.DeleteButton img {
+  margin: 0 5px;
+}

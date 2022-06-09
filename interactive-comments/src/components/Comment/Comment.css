@@ -1,0 +1,4 @@
+.Comment p {
+  color: var(--color-neutral-grayish-blue);
+  line-height: 1.3;
+}
