@@ -1,25 +1,26 @@
 .Likes {
   width: 90px;
-  display: block;
-  background-color: var(--color-neutral-very-light-gray);
   height: 35px;
   border-radius: 10px;
+  background-color: var(--color-neutral-very-light-gray);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .likes__btn--plus {
-  background: url(../../assets/avatars/icon-plus.svg) no-repeat center  ;
-  border:none; 
+  background: url(../../assets/avatars/icon-plus.svg) no-repeat center;
+  border: none;
   outline: none;
   width: 40px;
+  height: 100%;
   cursor: pointer;
 }
 .likes__btn--minus {
-  background: url(../../assets/avatars/icon-minus.svg) no-repeat center  ;
-  border:none; 
+  background: url(../../assets/avatars/icon-minus.svg) no-repeat center;
+  border: none;
   outline: none;
   width: 40px;
+  height: 100%;
   cursor: pointer;
 }
 .Likes span {
@@ -33,4 +34,10 @@
 }
 .vertical > * {
   transform: rotate(-90deg);
+}
+.likes__btn--plus:hover {
+  filter: brightness(0.2);
+}
+.likes__btn--minus:hover {
+  filter: brightness(0.2);
 }

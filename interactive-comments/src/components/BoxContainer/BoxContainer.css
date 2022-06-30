@@ -1,15 +1,9 @@
 .BoxContainer {
-  box-sizing: border-box;
-  display: block;
   width: 95%;
+  max-width: 800px;
   padding: 16px;
-  margin: 10px auto;  
+  margin: 10px auto;
   background-color: var(--color-neutral-white);
   box-shadow: 0 0 10px var(--color-neutral-very-light-gray);
   border-radius: 10px;
-}
-@media (min-width: 1000px) {
-  .BoxContainer {
-    max-width: 800px;
-  }
 }

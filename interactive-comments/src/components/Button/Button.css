@@ -2,9 +2,13 @@
   color: var(--color-neutral-white);
   background-color: var(--color-primary-moderate-blue);
   font-family: 'Rubik', sans-serif;
-  padding: 15px 34px;
+  padding: 15px 25px;
   border: none;
   border-radius: 10px;
   outline: none;
   font-weight: 500;
+  cursor: pointer;
+}
+.Button:hover {
+  opacity: .6;
 }

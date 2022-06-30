@@ -14,3 +14,6 @@
 .DeleteButton img {
   margin: 0 5px;
 }
+.DeleteButton:hover {
+  opacity: .6;
+}
