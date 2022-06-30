@@ -1,15 +1,15 @@
 
 :root {
-  --color-primary-moderate-blue: hsl(238, 40%, 52%);
-  --color-primary-soft-red: hsl(358, 79%, 66%);
-  --color-primary-light-grayish-blue: hsl(239, 57%, 85%);
-  --color-primary-pale-red: hsl(357, 100%, 86%);
+  --color-primary-moderate-blue: #5457b6;
+  --color-primary-soft-red: #ed6468;
+  --color-primary-light-grayish-blue: #c3c4ef;
+  --color-primary-pale-red: #ffb8bb;
 
-  --color-neutral-dark-blue: hsl(212, 24%, 26%);
-  --color-neutral-grayish-blue: hsl(211, 10%, 45%);
-  --color-neutral-light-gray: hsl(223, 19%, 93%);
-  --color-neutral-very-light-gray: hsl(228, 33%, 97%);
-  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-dark-blue: #324152;
+  --color-neutral-grayish-blue: #67727e;
+  --color-neutral-light-gray: #eaecf1;
+  --color-neutral-very-light-gray: #f5f6fa;
+  --color-neutral-white: #ffffff;
 
   --font-size-paragraph: 16px;
 }
@@ -31,4 +31,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.hover-effect-opacity {
+  opacity: 0.5;
 }
