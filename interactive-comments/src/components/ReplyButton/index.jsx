@@ -1,11 +1,11 @@
-import './ReplyButton.css';
-import replyImage from "../../assets/avatars/icon-reply.svg"
+import "./ReplyButton.css";
+import replyImage from "../../assets/avatars/icon-reply.svg";
 
-export default function ReplyButton() {
+export default function ReplyButton({ handleClick }) {
   return (
-    <button className='ReplyButton'>
+    <button className="ReplyButton" onClick={handleClick}>
       <img src={replyImage} alt="reply-button" />
       Reply
     </button>
-  )
+  );
 }

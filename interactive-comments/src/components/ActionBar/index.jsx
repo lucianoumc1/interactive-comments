@@ -1,14 +1,12 @@
-import Likes from '../Likes';
-import ReplyButton from '../ReplyButton';
-import DeleteButton from '../DeleteButton';
-import './ActionBar.css'
+import DeleteButton from "../DeleteButton";
+import EditButton from "../EditButton";
+import "./ActionBar.css";
 
-export default function ActionBar({ score }) {
+export default function ActionBar() {
   return (
-    <div className='ActionBar'>
-      <Likes score={ score }/>
+    <div className="ActionBar">
       <DeleteButton />
-      <ReplyButton />
+      <EditButton />
     </div>
-  )
+  );
 }

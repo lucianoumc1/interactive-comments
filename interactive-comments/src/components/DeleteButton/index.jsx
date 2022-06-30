@@ -1,11 +1,11 @@
-import DeleteIcon from '../../assets/avatars/icon-delete.svg';
-import './DeleteButton.css';
+import DeleteIcon from "../../assets/avatars/icon-delete.svg";
+import "./DeleteButton.css";
 
-export default function DeleteButton() {
+export default function DeleteButton({ handleClick }) {
   return (
-    <button className='DeleteButton'>
-    <img src={DeleteIcon} alt="delete-button" />
-    Delete
-  </button>
-  )
+    <button className="DeleteButton" onClick={handleClick}>
+      <img src={DeleteIcon} alt="delete-button" />
+      Delete
+    </button>
+  );
 }
